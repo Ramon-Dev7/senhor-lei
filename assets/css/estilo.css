@@ -1,0 +1,71 @@
+/* corpo do site */
+body {
+    margin: 0; /*espaçamento externo */
+    font-family: 'Fredoka', sans-serif;
+}
+
+/*Topo */
+.secao-topo {
+    border-bottom: 1px solid #d5d5d5; /* borda inf*/
+}
+
+.secao-largura-limitada {
+    width: 800px; /*largura */
+    margin: 0 auto;
+}
+
+h1,h2,h3 {
+    margin: 0; /* zero para os 3 */
+}
+
+/* estiliza só p */
+.secao-topo p {
+    padding: 20px; /*espaçamento interno para todos os lados */
+    font-size: 22px; /* tamanho da letra */
+    font-weight: bold; /* negrito */
+}
+
+/* Seção inicial com imagem de fundo */
+.secao-background-capa {
+    min-height: 500px; /* mínimo de lrgura */
+    background-image: url('../img/capa.jpg');
+    background-size: cover; /*ocupar todo espaço */
+}
+
+.secao-background-conteudo {
+    text-align: right; /* centralizar à direita */
+    padding: 50px 20px; /* 50 sup e inf, 20 dir e esq */
+}
+
+/*Seção conteúdo */
+.secao-conteudo {
+    padding: 50px 20px;
+}
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+}
+
+.secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/*Seção com imagem de fundo e texto */
+.secao-background-divisao {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('../img/fundo.jpg'); /* imagem de fundo */
+    background-repeat: no-repeat; /* para não replicar */
+    background-size: cover; /* ocupar o tamanho maximo */
+    background-attachment: fixed; /*fixar a imagem */
+}
+
+.secao-background-divisao h3 {
+    font-size: 36px;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px; /* aredondar */
+}
